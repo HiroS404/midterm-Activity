@@ -1,3 +1,4 @@
+
 .nav{
     display: flex;
     position: fixed;
@@ -8,6 +9,7 @@
     backdrop-filter: blur(20px);
 }
 
+
 .ul{
     display: flex;
     gap: 40px;
@@ -17,8 +19,12 @@
     padding-top: 10px;
     font-size: large;
 }
+
+.nav h2{
+    padding-left: 30px;
+}
 .li:hover{
-    color: rgb(160, 214, 34);
+    color: rgb(125, 160, 44);
 }
 
 .section{
@@ -42,8 +48,8 @@
     color: white;
 }
 .footer{
-    margin-top: 60px;
-    height: 220px;
+    margin-top: 200px;
+    height: 250px;
     background-color: black;
     color: white;
     bottom: 0;
@@ -52,9 +58,14 @@
 .footerInside{
     display: block;
     padding-top: 20px;
+    padding-left: 30px;
+    list-style-type: none;
 }
 
 
+.copy{
+text-align: center;
+}
 
 .box{
     width: 90%;
@@ -62,15 +73,13 @@
     background-color: rgb(201, 255, 74);
     margin: 0 auto;
     justify-content: center; 
-    margin-top: -120px;
+    margin-top: 50px;
     border-radius: 20px;
     box-shadow: 15px 15px  rgb(143, 140, 140);
     
 }
 
-Image{
-    z-index: -10;
-}
+
 
 .box h1{
     text-align: center;

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 // import back from 'public/back.jpg'
 import styles from "./home.css";
-import { FaFacebook, FaGithub, FaYoutube, FaLinkedin } from "react-icons/fa"; 
+import { FaFacebook, FaGithub, FaYoutube, FaLinkedin, FaRulerHorizontal } from "react-icons/fa"; 
 
 
 
@@ -20,16 +20,6 @@ export default function Home() {
 
       <section className="section"> 
         
-            <Image 
-            src="/eyyy.jpg" 
-            alt="test" 
-            width={1500} 
-            height={500} 
-            // fill style={{objectFit: 'contain'}}
-           
-            />
-      
-
         <div className="box">
           <h1>
             Welcome!! 
@@ -37,8 +27,22 @@ export default function Home() {
           </h1>
           <h1>   This is a Midterm Activity 1</h1>
 
+          <div style={{ display: 'grid', placeItems: 'center' }}>
+            <Image 
+              src="/rizz.jpg" 
+              alt="test" 
+              width={300} 
+              height={300} 
+              style={{ borderRadius: 50 }}
+            />
+          </div>
+
+          
+
           <button className="button">Click me!</button>
             </div>
+
+            
         
       </section>
 
@@ -57,6 +61,8 @@ export default function Home() {
             <li><a href="#"><FaLinkedin /> </a> </li>
             
           </ul> 
+
+          
           
 
 
@@ -64,6 +70,8 @@ export default function Home() {
 
           
         </ul>
+        <hr/>
+        <p className='copy'> &copy; Rizz, Its mine bruhh. </p>
       </footer>
       
     </main>
