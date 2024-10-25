@@ -111,4 +111,41 @@ text-align: center;
     color: rgb(201, 255, 74);
 }
 
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(720deg);
+    }
+  }
+  
+    .spin {
+        animation: spin 1s ease-in-out infinite;
+    }
+  
+  @keyframes rotate {
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(720deg);
+    }
+  }
 
+  .rotate{
+    animation: rotate 1s ease-in-out;
+  }
+
+  @keyframes tiyug {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(720deg);
+    }
+  }
+
+  .tiyug{
+    animation: tiyug 1s ease-in-out;
+  }
